@@ -1,0 +1,16 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "joi-to-swagger-converter",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
