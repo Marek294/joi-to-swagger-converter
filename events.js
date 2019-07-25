@@ -3,6 +3,12 @@ const Joi = require('joi');
 events_list = {
     events:[
         {
+            eventName: 'APP_OPENED',
+            description: 'Application was opened',
+            categoryName: 'init',
+            data: Joi.object().keys({})
+        },
+        {
             eventName: 'PRESS_START_CALL',
             description: 'Start call description',
             categoryName: 'call',
