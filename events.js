@@ -5,7 +5,7 @@ events_list = {
         {
             eventName: 'PRESS_START_CALL',
             description: 'Start call description',
-            categoryName: 'other',
+            categoryName: 'call',
             data: Joi.object().keys({
                 id: Joi.number()
                 .integer()
